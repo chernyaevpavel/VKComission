@@ -45,7 +45,7 @@ class MainKtTest {
         val currentSum = 10_000.0
         val result = calculateCommission(cardType, prevSum, currentSum)
 
-        assertEquals(0.0, result, 0.001)
+        assertEquals(1.0, result, 0.001)
     }
 
     @Test
