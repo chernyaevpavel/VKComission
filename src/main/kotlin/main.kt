@@ -2,10 +2,10 @@ import kotlin.math.roundToInt
 
 fun main() {
     println(calculateCommission("VK Pay", 10_000.0, 800.0))
-    println(calculateCommission("Mastercard", 10_000.0, 1_000.0))
-    println(calculateCommission("Maestro", 85_000.0, 300.75))
-    println(calculateCommission("Mir", currentSum = 500.0))
-    println(calculateCommission("Visa", currentSum = 15_000.0))
+//    println(calculateCommission("Mastercard", 10_000.0, 1_000.0))
+//    println(calculateCommission("Maestro", 85_000.0, 300.75))
+//    println(calculateCommission("Mir", currentSum = 500.0))
+//    println(calculateCommission("Visa", currentSum = 15_000.0))
 }
 
 fun calculateCommission(cardType: String = "VK Pay", prevSum: Double = 0.0, currentSum: Double): Double {
